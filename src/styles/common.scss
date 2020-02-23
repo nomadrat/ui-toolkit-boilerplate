@@ -1,0 +1,12 @@
+//! utilities
+@import "./utils/mixins";              // global mixins
+@import "./utils/variables";           // global variables
+
+//! setup
+//@import "./setup/normalize";           // normalize browsers to make more consistent
+@import "./setup/clearfix";             // clearfix for floats
+@import "./setup/border-box";          // global border-box setting
+
+//! global styles
+@import "./global/typography";         // global typography
+@import "./global/global";             // global styles

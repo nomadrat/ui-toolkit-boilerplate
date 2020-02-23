@@ -1,0 +1,25 @@
+//? set your brand colors
+
+$white: #fff;
+
+$light-grey: #fafafa;
+$grey: #d7d7d7;
+
+$black: #09090e;
+
+$blue: #2c638f;
+$pink: #fff0f5;
+$yellow: #fffacd;
+
+$black-pearl: rgba(10, 27, 39, 1.00);
+$black-soft: rgba(72, 72, 72, 1);
+$fjord: rgba(74, 87, 97, 1.00);
+$corn-flower-blue: #607dfb;
+$corn-flower-blue-light: rgba(98, 129, 247, .2);
+
+//? override for project clarity
+
+$color-primary: $corn-flower-blue;
+$color-primary-light: $corn-flower-blue-light;
+$color-secondary: $pink;
+$color-tertiary: $yellow;

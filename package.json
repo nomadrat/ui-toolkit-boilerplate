@@ -1,0 +1,38 @@
+{
+  "name": "ui-toolkit-boilerplate",
+  "version": "0.0.1",
+  "author": "Dmitry Smirnov <dmitry@abstractkitchen.com>",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abstract-Kitchen/ui-toolkit-boilerplate"
+  },
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "build-production": "gulp build --production"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "rollup": "^1.20.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "camelcase-keys": "^6.0.1",
+    "gulp-rename": "^1.4.0",
+    "snakecase-keys": "^3.1.0"
+  }
+}
