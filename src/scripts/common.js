@@ -7,14 +7,3 @@ window.__handleError = handleError;
 window._ = _;
 window.$ = $;
 window.__api = api;
-
-
-function doShit(response, $form, event) {
-
-}
-
-function dataProcessor(formData, $form, event) {
-
-}
-
-api.withForm('#form', 'auth.sms.verify', doShit, dataProcessor);

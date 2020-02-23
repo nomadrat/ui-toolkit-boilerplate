@@ -1,4 +1,5 @@
 # Node
+.idea
 node_modules
 test/results
 test/coverage
