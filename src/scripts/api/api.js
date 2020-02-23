@@ -90,12 +90,6 @@ export const requestApi = (method='post', url) => (data) => {
 
 export const apiRules = {
   'newsletter.subscribe': requestApi('post', 'newsletter/'),
-  'topic.search': requestApi('get', 'search-topic/'),
-  'comments.search': requestApi('get', 'api/search-comments/'),
-  'comments.filter': requestApi('get', 'api/filter-comments/'),
-  'pulse.get': requestApi('get', 'api/get-pulse/'),
-  'pulse.videos.get': requestApi('get', 'api/get-pulse-videos/'),
-  'roulette.random-link.get': requestApi('get', 'api/get-roulette-link/'),
 };
 
 /**
